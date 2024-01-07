@@ -1,0 +1,11 @@
+.progressbar {
+    -fx-background-radius: 20;
+    }
+.progressbar .track {
+    -fx-background-color: red;
+    -fx-background-radius: 20;
+}
+.progressbar .bar {
+    -fx-background-radius: 20;
+    -fx-background-color: green;
+}
