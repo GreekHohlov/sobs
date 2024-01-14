@@ -23,7 +23,7 @@ public class Sounds extends Thread{
                 player = new MediaPlayer(new Media(new File(temp).toURI().toString()));
                 player.play();
                 if (path.endsWith("StartScreenSound.mp3")) {
-                    player.setCycleCount(5);
+                    player.setCycleCount(MediaPlayer.INDEFINITE);
                 }
             } catch (Exception e) {
                 e.printStackTrace();

@@ -156,7 +156,7 @@ public class HistoryController {
         return list;
     }
     private void changeSlide(int i) {
-        if (i > 0 && currentSlide < 2) {
+        if (i > 0 && currentSlide < historySlides.size()) {
             currentSlide += i;
         }
         if (i < 0 && currentSlide > 0) {
